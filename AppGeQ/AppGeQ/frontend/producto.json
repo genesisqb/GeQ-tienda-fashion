@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "nombre": "Reme Shoes Love",
+        "price": "700 UYU",
+        "Image": "shoes.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Reme London",
+        "price": "700 UYU",
+        "Image": "london.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Reme Coffe Time",
+        "price": "700 UYU",
+        "Image": "coffe-time.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Reme Goku",
+        "price": "700 UYU",
+        "Image": "goku.jpg"
+    }
+]
