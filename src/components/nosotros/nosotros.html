@@ -131,7 +131,38 @@
         <p class="footer_texto">❤️ GeQ ❤️ Fashion 🏷- Todos los derechos Reservados 2022.</p>
     </footer>
     <script>
-        function menu() {
+        class MyCarousel extends Component {
+            render() {
+                return ( <
+                    Carousel >
+                    <
+                    div >
+                    <
+                    img src = "img/Estampar.jpg" / >
+                    <
+                    p className = "carousel-caption" > Descubre diferentes colores y envianos tu diseño < /p> < /
+                    div > <
+                    div >
+                    <
+                    img src = "img/remeras-para-sublimar.png" / >
+                    <
+                    p className = "carousel-caption" > Selecciona tu color favorito < /p> < /
+                    div > <
+                    div >
+                    <
+                    img src = "img/remeras-para-sublimar.png" / >
+                    <
+                    p className = "carousel-caption" > Vos elegi y te lo enviamos al lugar donde te encuentres < /p> < /
+                    div > <
+                    /Carousel>
+                );
+            }
+        });
+
+        ReactDOM.render( < MyCarousel / > , document.querySelector('.my-carousel'));
+    </script>
+    <!--  <script>
+           function menu() {
             const myMenu = document.getElementById("myLinks");
             if (myMenu.style.display === "block") {
                 myMenu.style.display = "none";
@@ -139,7 +170,9 @@
                 myMenu.style.display = "block";
             }
         }
-    </script>
+    </script> -->
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
